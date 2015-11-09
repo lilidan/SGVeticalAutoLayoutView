@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6CB6BEE1BECA262009BA3AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CB6BED1BECA262009BA3AD /* main.m */; };
+		D6CB6BF11BECA262009BA3AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CB6BF01BECA262009BA3AD /* AppDelegate.m */; };
+		D6CB6BF41BECA262009BA3AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CB6BF31BECA262009BA3AD /* ViewController.m */; };
+		D6CB6BF71BECA262009BA3AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CB6BF51BECA262009BA3AD /* Main.storyboard */; };
+		D6CB6BF91BECA262009BA3AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6CB6BF81BECA262009BA3AD /* Assets.xcassets */; };
+		D6CB6BFC1BECA262009BA3AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CB6BFA1BECA262009BA3AD /* LaunchScreen.storyboard */; };
+		D6CB6C071BECA262009BA3AD /* SGTextFieldAutoLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CB6C061BECA262009BA3AD /* SGTextFieldAutoLayoutTests.m */; };
+		D6CB6C121BECA262009BA3AD /* SGTextFieldAutoLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CB6C111BECA262009BA3AD /* SGTextFieldAutoLayoutUITests.m */; };
+		D6CB6CE71BECA2F4009BA3AD /* SGVeticalAutoLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CB6CE61BECA2F4009BA3AD /* SGVeticalAutoLayoutView.m */; };
+		D6CF8B571BF0734E00196D84 /* 20130204224720_Nejd4.thumb.200_0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D6CF8B561BF0734E00196D84 /* 20130204224720_Nejd4.thumb.200_0.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6CB6C031BECA262009BA3AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6CB6BE11BECA262009BA3AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6CB6BE81BECA262009BA3AD;
+			remoteInfo = SGTextFieldAutoLayout;
+		};
+		D6CB6C0E1BECA262009BA3AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6CB6BE11BECA262009BA3AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6CB6BE81BECA262009BA3AD;
+			remoteInfo = SGTextFieldAutoLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6CB6BE91BECA262009BA3AD /* SGTextFieldAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGTextFieldAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CB6BED1BECA262009BA3AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6CB6BEF1BECA262009BA3AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6CB6BF01BECA262009BA3AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6CB6BF21BECA262009BA3AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6CB6BF31BECA262009BA3AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6CB6BF61BECA262009BA3AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6CB6BF81BECA262009BA3AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6CB6BFB1BECA262009BA3AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6CB6BFD1BECA262009BA3AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CB6C021BECA262009BA3AD /* SGTextFieldAutoLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGTextFieldAutoLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CB6C061BECA262009BA3AD /* SGTextFieldAutoLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGTextFieldAutoLayoutTests.m; sourceTree = "<group>"; };
+		D6CB6C081BECA262009BA3AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CB6C0D1BECA262009BA3AD /* SGTextFieldAutoLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGTextFieldAutoLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CB6C111BECA262009BA3AD /* SGTextFieldAutoLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGTextFieldAutoLayoutUITests.m; sourceTree = "<group>"; };
+		D6CB6C131BECA262009BA3AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CB6CE51BECA2F4009BA3AD /* SGVeticalAutoLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGVeticalAutoLayoutView.h; sourceTree = "<group>"; };
+		D6CB6CE61BECA2F4009BA3AD /* SGVeticalAutoLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGVeticalAutoLayoutView.m; sourceTree = "<group>"; };
+		D6CF8B561BF0734E00196D84 /* 20130204224720_Nejd4.thumb.200_0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20130204224720_Nejd4.thumb.200_0.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6CB6BE61BECA262009BA3AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB6BFF1BECA262009BA3AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB6C0A1BECA262009BA3AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6CB6BE01BECA262009BA3AD = {
+			isa = PBXGroup;
+			children = (
+				D6CB6CE41BECA2DC009BA3AD /* Classes */,
+				D6CB6BEB1BECA262009BA3AD /* SGTextFieldAutoLayout */,
+				D6CB6C051BECA262009BA3AD /* SGTextFieldAutoLayoutTests */,
+				D6CB6C101BECA262009BA3AD /* SGTextFieldAutoLayoutUITests */,
+				D6CB6BEA1BECA262009BA3AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6CB6BEA1BECA262009BA3AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6CB6BE91BECA262009BA3AD /* SGTextFieldAutoLayout.app */,
+				D6CB6C021BECA262009BA3AD /* SGTextFieldAutoLayoutTests.xctest */,
+				D6CB6C0D1BECA262009BA3AD /* SGTextFieldAutoLayoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6CB6BEB1BECA262009BA3AD /* SGTextFieldAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				D6CB6BEF1BECA262009BA3AD /* AppDelegate.h */,
+				D6CB6BF01BECA262009BA3AD /* AppDelegate.m */,
+				D6CB6BF21BECA262009BA3AD /* ViewController.h */,
+				D6CB6BF31BECA262009BA3AD /* ViewController.m */,
+				D6CB6BF51BECA262009BA3AD /* Main.storyboard */,
+				D6CB6BF81BECA262009BA3AD /* Assets.xcassets */,
+				D6CF8B561BF0734E00196D84 /* 20130204224720_Nejd4.thumb.200_0.jpeg */,
+				D6CB6BFA1BECA262009BA3AD /* LaunchScreen.storyboard */,
+				D6CB6BFD1BECA262009BA3AD /* Info.plist */,
+				D6CB6BEC1BECA262009BA3AD /* Supporting Files */,
+			);
+			path = SGTextFieldAutoLayout;
+			sourceTree = "<group>";
+		};
+		D6CB6BEC1BECA262009BA3AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6CB6BED1BECA262009BA3AD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6CB6C051BECA262009BA3AD /* SGTextFieldAutoLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6CB6C061BECA262009BA3AD /* SGTextFieldAutoLayoutTests.m */,
+				D6CB6C081BECA262009BA3AD /* Info.plist */,
+			);
+			path = SGTextFieldAutoLayoutTests;
+			sourceTree = "<group>";
+		};
+		D6CB6C101BECA262009BA3AD /* SGTextFieldAutoLayoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6CB6C111BECA262009BA3AD /* SGTextFieldAutoLayoutUITests.m */,
+				D6CB6C131BECA262009BA3AD /* Info.plist */,
+			);
+			path = SGTextFieldAutoLayoutUITests;
+			sourceTree = "<group>";
+		};
+		D6CB6CE41BECA2DC009BA3AD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D6CB6CE51BECA2F4009BA3AD /* SGVeticalAutoLayoutView.h */,
+				D6CB6CE61BECA2F4009BA3AD /* SGVeticalAutoLayoutView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6CB6BE81BECA262009BA3AD /* SGTextFieldAutoLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CB6C161BECA262009BA3AD /* Build configuration list for PBXNativeTarget "SGTextFieldAutoLayout" */;
+			buildPhases = (
+				D6CB6BE51BECA262009BA3AD /* Sources */,
+				D6CB6BE61BECA262009BA3AD /* Frameworks */,
+				D6CB6BE71BECA262009BA3AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGTextFieldAutoLayout;
+			productName = SGTextFieldAutoLayout;
+			productReference = D6CB6BE91BECA262009BA3AD /* SGTextFieldAutoLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6CB6C011BECA262009BA3AD /* SGTextFieldAutoLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CB6C191BECA262009BA3AD /* Build configuration list for PBXNativeTarget "SGTextFieldAutoLayoutTests" */;
+			buildPhases = (
+				D6CB6BFE1BECA262009BA3AD /* Sources */,
+				D6CB6BFF1BECA262009BA3AD /* Frameworks */,
+				D6CB6C001BECA262009BA3AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6CB6C041BECA262009BA3AD /* PBXTargetDependency */,
+			);
+			name = SGTextFieldAutoLayoutTests;
+			productName = SGTextFieldAutoLayoutTests;
+			productReference = D6CB6C021BECA262009BA3AD /* SGTextFieldAutoLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6CB6C0C1BECA262009BA3AD /* SGTextFieldAutoLayoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CB6C1C1BECA262009BA3AD /* Build configuration list for PBXNativeTarget "SGTextFieldAutoLayoutUITests" */;
+			buildPhases = (
+				D6CB6C091BECA262009BA3AD /* Sources */,
+				D6CB6C0A1BECA262009BA3AD /* Frameworks */,
+				D6CB6C0B1BECA262009BA3AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6CB6C0F1BECA262009BA3AD /* PBXTargetDependency */,
+			);
+			name = SGTextFieldAutoLayoutUITests;
+			productName = SGTextFieldAutoLayoutUITests;
+			productReference = D6CB6C0D1BECA262009BA3AD /* SGTextFieldAutoLayoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6CB6BE11BECA262009BA3AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = sgcy;
+				TargetAttributes = {
+					D6CB6BE81BECA262009BA3AD = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = DYB4RP29K2;
+					};
+					D6CB6C011BECA262009BA3AD = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D6CB6BE81BECA262009BA3AD;
+					};
+					D6CB6C0C1BECA262009BA3AD = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D6CB6BE81BECA262009BA3AD;
+					};
+				};
+			};
+			buildConfigurationList = D6CB6BE41BECA262009BA3AD /* Build configuration list for PBXProject "SGTextFieldAutoLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6CB6BE01BECA262009BA3AD;
+			productRefGroup = D6CB6BEA1BECA262009BA3AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6CB6BE81BECA262009BA3AD /* SGTextFieldAutoLayout */,
+				D6CB6C011BECA262009BA3AD /* SGTextFieldAutoLayoutTests */,
+				D6CB6C0C1BECA262009BA3AD /* SGTextFieldAutoLayoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6CB6BE71BECA262009BA3AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CB6BFC1BECA262009BA3AD /* LaunchScreen.storyboard in Resources */,
+				D6CB6BF91BECA262009BA3AD /* Assets.xcassets in Resources */,
+				D6CB6BF71BECA262009BA3AD /* Main.storyboard in Resources */,
+				D6CF8B571BF0734E00196D84 /* 20130204224720_Nejd4.thumb.200_0.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB6C001BECA262009BA3AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB6C0B1BECA262009BA3AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6CB6BE51BECA262009BA3AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CB6BF41BECA262009BA3AD /* ViewController.m in Sources */,
+				D6CB6BF11BECA262009BA3AD /* AppDelegate.m in Sources */,
+				D6CB6BEE1BECA262009BA3AD /* main.m in Sources */,
+				D6CB6CE71BECA2F4009BA3AD /* SGVeticalAutoLayoutView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB6BFE1BECA262009BA3AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CB6C071BECA262009BA3AD /* SGTextFieldAutoLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CB6C091BECA262009BA3AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CB6C121BECA262009BA3AD /* SGTextFieldAutoLayoutUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6CB6C041BECA262009BA3AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6CB6BE81BECA262009BA3AD /* SGTextFieldAutoLayout */;
+			targetProxy = D6CB6C031BECA262009BA3AD /* PBXContainerItemProxy */;
+		};
+		D6CB6C0F1BECA262009BA3AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6CB6BE81BECA262009BA3AD /* SGTextFieldAutoLayout */;
+			targetProxy = D6CB6C0E1BECA262009BA3AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6CB6BF51BECA262009BA3AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6CB6BF61BECA262009BA3AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6CB6BFA1BECA262009BA3AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6CB6BFB1BECA262009BA3AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6CB6C141BECA262009BA3AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6CB6C151BECA262009BA3AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6CB6C171BECA262009BA3AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SGTextFieldAutoLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sgcy.SGTextFieldAutoLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6CB6C181BECA262009BA3AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SGTextFieldAutoLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sgcy.SGTextFieldAutoLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D6CB6C1A1BECA262009BA3AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SGTextFieldAutoLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sgcy.SGTextFieldAutoLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SGTextFieldAutoLayout.app/SGTextFieldAutoLayout";
+			};
+			name = Debug;
+		};
+		D6CB6C1B1BECA262009BA3AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SGTextFieldAutoLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sgcy.SGTextFieldAutoLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SGTextFieldAutoLayout.app/SGTextFieldAutoLayout";
+			};
+			name = Release;
+		};
+		D6CB6C1D1BECA262009BA3AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SGTextFieldAutoLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sgcy.SGTextFieldAutoLayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SGTextFieldAutoLayout;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D6CB6C1E1BECA262009BA3AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SGTextFieldAutoLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sgcy.SGTextFieldAutoLayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SGTextFieldAutoLayout;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6CB6BE41BECA262009BA3AD /* Build configuration list for PBXProject "SGTextFieldAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CB6C141BECA262009BA3AD /* Debug */,
+				D6CB6C151BECA262009BA3AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CB6C161BECA262009BA3AD /* Build configuration list for PBXNativeTarget "SGTextFieldAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CB6C171BECA262009BA3AD /* Debug */,
+				D6CB6C181BECA262009BA3AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CB6C191BECA262009BA3AD /* Build configuration list for PBXNativeTarget "SGTextFieldAutoLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CB6C1A1BECA262009BA3AD /* Debug */,
+				D6CB6C1B1BECA262009BA3AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CB6C1C1BECA262009BA3AD /* Build configuration list for PBXNativeTarget "SGTextFieldAutoLayoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CB6C1D1BECA262009BA3AD /* Debug */,
+				D6CB6C1E1BECA262009BA3AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6CB6BE11BECA262009BA3AD /* Project object */;
+}
